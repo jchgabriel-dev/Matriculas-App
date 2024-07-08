@@ -13,6 +13,19 @@ code {
 }
 
 
+.select-class {
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: thin solid #dedede;
+  outline: none;
+  line-height: 1;
+
+}
+.first-option {
+  color: gray;
+}
 
 input[type="text"] {
   border: thin solid #dedede;
@@ -49,7 +62,9 @@ input[type="submit"]:hover {
   font-size: 15px;
   background-color: #068f16;
   border-radius: 0.25rem;
-  min-width: 150px;
+
+  min-width: 110px;
+  max-width: 40%;
 }
 
 .addButton:hover {  
@@ -116,4 +131,13 @@ input[type="submit"]:hover {
   display: flex;
   align-items: center;
   font-weight: bolder;
+}
+
+.title-port-2 {
+  color: #1C2535;
+  gap: 12px;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  margin-top: 1rem;
 }

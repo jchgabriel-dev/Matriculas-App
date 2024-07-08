@@ -99,7 +99,7 @@ export default function Students() {
         const timeout = setTimeout(() => {
             setRecords(studentsData );
             setLoading(false);
-        }, 1000);
+        }, 500);
         return () => clearTimeout(timeout);
     }, [])
 

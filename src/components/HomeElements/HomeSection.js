@@ -1,9 +1,21 @@
 import React from 'react'
+import "./HomeForm.css"
 
-export default function HomeSection() {
+
+const HomeSection = ({number, text, icon}) => {
   return (
-    <div>
-      <h1>Hola</h1>
+    <div className='column '>
+      <div  className={`card-counter ${text}`}>
+      <i className={`fa ${icon} fa-4x`}></i>
+      <br></br>
+      <br></br>
+
+      <p>{text}</p>
+      <p>{number} +</p>
+      </div>
+      
     </div>
   )
 }
+
+export default HomeSection

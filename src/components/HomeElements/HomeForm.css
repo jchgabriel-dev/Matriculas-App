@@ -1,0 +1,77 @@
+.column {
+  width: 50%;
+  padding: 0 5px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+.card-counter {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #444;
+  color: white;
+  transition-duration: 200ms;
+}
+
+
+
+.card-counter p{
+  font-size: 18px;
+}
+
+.alert {
+  padding: 20px;  
+  color: white;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+.alert-success {
+  background-color: #4ba134;
+}
+
+.alert-warning {
+  background-color: #eed203;
+}
+
+.alert-danger {
+  background-color: #9C1818;
+}
+
+.alert-info {
+  background-color: #2D47A0;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+.Estudiantes {
+  background-color: #5d5d5d;
+}

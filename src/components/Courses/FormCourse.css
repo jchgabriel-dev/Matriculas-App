@@ -1,0 +1,66 @@
+.iconEdit {
+    padding: 10px;
+    background: darkred;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    padding-top: 15px;
+
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+    font-family: arial;
+    overflow: hidden;
+  }
+
+
+  .delete-card {
+    background-color: #9C1818;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+
+  }
+
+  .delete-card:hover {
+    background-color: black;
+   
+  }
+
+  .edit-card {
+    background-color: #2D47A0;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+
+  }
+  .edit-card:hover {
+    background-color: black;
+   
+  }
+
+  .aula-space {
+    color: rgb(99, 99, 99);
+  }
+
+  .div-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.icon-card-2 {
+  background-color: #2e4f76;
+  padding: 1rem ;
+  margin-bottom: 1rem;
+  color: #fff;
+}

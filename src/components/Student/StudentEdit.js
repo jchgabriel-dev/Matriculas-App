@@ -51,7 +51,7 @@ export default function StudentEdit({ student, editForm, closeModal }) {
                 edad: student.edad.toString() 
             });
         }
-    }, [student]);
+    }, [student]); 
 
 
     return (
