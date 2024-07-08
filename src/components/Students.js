@@ -118,13 +118,6 @@ export default function Students() {
         )
     }
 
-    function Title() {
-        return (
-            <div>
-                <h1>Hola</h1>
-            </div>
-        )
-    }
 
     const [isOpenModal, openModal, closeModal] = useModal(false)
     const [isOpenModalEdit, openModalEdit, closeModalEdit] = useModal(false)

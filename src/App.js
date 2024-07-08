@@ -1,4 +1,3 @@
-import { Component } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 
